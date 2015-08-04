@@ -1,0 +1,22 @@
+﻿{
+"Assessment":
+{
+"DataSpecified":"true",
+"Company":"Flint n Tinder",
+"Logo":"https://www.flintntinder.com/img/logo-black.png",
+"Website":"https://www.flintntinder.com/",
+"AssessmentReviewer":"Willem Labu",
+"ReviewerPosition":"Technical Director",
+"ReviewerEmail":"SEE PROFILE",
+"Candidate":"Gareth",
+"CandidateIdNo":"SEE CV",
+"CandidateEmail":"SEE CV",
+"CandidatePrimaryContactNo":"SEE CV",
+"CandidateProfileLinks":"N/A",
+"AssessmentPlatform":".net MVC 5",
+"TestCriteria":"Please create a C#.NET MVC app with a view that pulls in this list of jobs(https://gist.githubusercontent.com/WillemLabu/34cfb50187ec334c48ee/raw/cb46400505afd82d9e354b591ad71d97f07613be/jobs.json) dynamically (don't copy and paste it) into a styled table on a page.Make sure the table is paginated with 10 jobs per page.Incorporate a search function, and make the whole page responsive if you can.You can use any framework on the front-end.Points for simplicity and style.Once that's done, please push your project into a repo on Github, and send me a link.",
+"TestData":"https://gist.githubusercontent.com/WillemLabu/34cfb50187ec334c48ee/raw/cb46400505afd82d9e354b591ad71d97f07613be/jobs.json",
+"AssessmentExpectedDate":"03/08/2015 12:00:00 AM"
+}
+
+}

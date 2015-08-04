@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Assessment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-sm-offset-4 col-sm-4 text-center">
+        <div class="page-header">
+            <h1>
+                J o b s - T a b l e
+            </h1>
+        </div>
+        
+    </div>
+</div>
+<div class="row" ng-app="AssessApp">
+    @Html.Partial("~/Views/Home/TableAssessment.cshtml")
+</div>

@@ -1,0 +1,15 @@
+﻿<div ng-controller="AssessmentsController" ng-init="GetAssessment(1)">
+    <div class="row, text-left">
+        <table class="table table-bordered">
+            <tr ng-repeat="(key, value) in results">
+                <td style="color: orangered;">{{key}}</td>
+                <td>{{value}}</td>
+            </tr>
+        </table>
+    </div>
+    <div class="row">
+        <div class="col-sm-offset-5 col-sm-2 text-center">
+            <button type="button" class="btn btn-success" onclick="location.href='@Url.Action("Assessment", "Home")'">S T A R T - A S S E S S M E N T</button>
+        </div>
+    </div>
+</div>
