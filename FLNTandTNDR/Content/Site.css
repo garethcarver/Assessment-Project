@@ -1,4 +1,4 @@
-﻿body {
+body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -44,4 +44,18 @@ input[type="checkbox"].input-validation-error {
 .no-left-padding
 {
     padding-left: 0px;
+}
+
+.tableCell1 {
+    color: #414040;
+    font-weight: 700;
+}
+
+.tableHeader {
+    color:#999999;
+    background-color: #222222;
+}
+
+.textBoxStyle {
+    background-color: #999999;
 }
