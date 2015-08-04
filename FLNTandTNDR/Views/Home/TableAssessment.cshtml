@@ -1,8 +1,8 @@
-﻿   <div ng-controller="AssessmentsController" ng-init="GetAssessment(2)">
-       
-       <label>Search All: <input ng-model="search"></label> 
+   <div ng-controller="AssessmentsController" ng-init="GetAssessment(2)">
+       <div>
+       <label>Search All: <input ng-model="search" class="textBoxStyle" ></label> 
        <label>
-           Sort By:<select id="ops" ng-model="sort">
+           Sort By: <select id="ops" ng-model="sort" class="textBoxStyle">
                <option>'client'</option>
                <option>'job-number'</option>
                <option>'job-name'</option>
@@ -15,9 +15,10 @@
                        <option>-'status'</option>
            </select>
        </label> 
+           </div>
            <div class="row, text-left">
                <table class="table table-bordered">
-                   <tr style="color: orangered;">
+                   <tr class="tableHeader">
                        <th>
                            Client
                        </th>
@@ -31,15 +32,17 @@
                        <td> {{value['job-number']}}</td>
                        <td> {{value['job-name']}}</td>
                        <td> {{value.due}}</td>
-                       <td> {{value.status}}</td>
+                       <td class="tableCell1"> {{value.status}}</td>
                    </tr>
                </table>
+               <div class="col-sm-offset-4 col-sm-4 text-center">
                <button ng-disabled="currentPage == 0" ng-click="currentPage=currentPage-1">
                    Previous
                </button>
                {{currentPage+1}}/{{numberOfPages()}}
-               <button ng-disabled="currentPage == numberOfPages()-1" ng-click="currentPage=currentPage+1">
-                   Next
-               </button>
+                   <button ng-disabled="currentPage == numberOfPages()-1" ng-click="currentPage=currentPage+1">
+                       Next
+                   </button>
+                   </div>
            </div>
 </div>
